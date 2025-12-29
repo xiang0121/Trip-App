@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Trippie - US Travel Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+            },
+            colors: {
+              paper: '#F7F4EB',       // Beige texture background
+              'paper-dark': '#E0E5D5', // Darker beige for borders/shadows
+              primary: '#2C3E50',     // Deep Navy (Passport style)
+              secondary: '#C0392B',   // Muted Red (Stamp/Flag style)
+              'marker-green': '#27AE60',
+              'marker-blue': '#2980B9',
+              'marker-orange': '#E67E22',
+              'marker-purple': '#8E44AD',
+            },
+            boxShadow: {
+              'soft': '4px 4px 0px #E0E5D5',
+              'soft-hover': '6px 6px 0px #D0D5C5',
+              'soft-active': '2px 2px 0px #E0E5D5',
+              'inner-soft': 'inset 2px 2px 4px #D0D5C5',
+            },
+            borderRadius: {
+              'xl': '1rem',
+              '2xl': '1.5rem',
+              '3xl': '2rem',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+      body {
+        background-color: #F7F4EB;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "firebase/": "https://esm.sh/firebase@^12.7.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

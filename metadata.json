@@ -1,0 +1,9 @@
+{
+  "name": "Trippie - US Travel Journal",
+  "description": "A warm, journal-style personal travel planning PWA for Boston, NYC, and Houston. Features rounded UI, soft shadows, and offline-first architecture.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
